@@ -1,0 +1,149 @@
+#first-row{
+  margin-top:55px;
+}
+
+@media (max-width:767px) {
+  #first-column{
+    padding:0px;
+    max-width:100%;
+  }
+}
+
+#custom-form{
+  background-color:#f7f7f7;
+  box-shadow:0px 2px 20px rgba(0,0,0,0.4);
+}
+
+#custom-form h1{
+  padding:2px;
+}
+
+.credit-card-box .panel-title{
+  font-weight:bold;
+  overflow:hidden;
+  font-family:sans-serif;
+}
+
+.credit-card-box .panel-title .panel-title-text{
+  max-width:80px;
+  float:left;
+  border-radius:3px;
+  padding:20px 20px;
+  margin-top:10px;
+}
+
+.credit-card-box .panel-title .panel-title-image{
+  max-width:160px;
+  float:right;
+}
+
+.credit-card-box label{
+  display:block;
+}
+
+.credit-card-box .panel-body .control-label{
+  text-transform:uppercase;
+}
+
+.card{
+  box-shadow:2px 2px 5px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.35);
+  margin-top:20px;
+  box-sizing:border-box;
+  border-radius:5px;
+  background-clip:padding-box;
+}
+
+
+
+.card .card-content{
+  padding:16px;
+  border-radius:0 0 2px 2px;
+  background-clip:padding-box;
+  box-sizing:border-box;
+  background:#fff;
+  color:#333;
+}
+
+.card .card-content p{
+  margin:0;
+}
+
+
+
+#logo{
+  max-height:53px;
+  margin-top:-7px;
+  margin-right:5px;
+  margin-left:2px;
+  display:inline-table;
+}
+
+.register-form form.custom-form{
+  padding:55px;
+  box-sizing:border-box;
+  background-color:#fffff0;
+  box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  font:bold 14px sans-serif;
+  text-align:center;
+  margin:20px;
+  color:#333;
+}
+
+@media (max-width:400px) {
+  .register-form form.custom-form{
+    padding:55px 10px;
+  }
+}
+
+.register-form .custom-form h1{
+  display:inline-block;
+  color:#4E6EE6;
+  font-size:24px;
+  font-weight:bold;
+  padding:0 10px 10px;
+  margin-bottom:15px;
+  margin-top: -40px;
+  border-bottom:2px solid rgb(108, 174, 224);
+}
+
+.register-form .custom-form .form-group{
+  margin-bottom:1em;
+}
+
+.register-form .custom-form .label-column{
+  text-align:right;
+  color:#5F5F5F;
+  font-size:medium;
+}
+
+@media (max-width:768px) {
+  .register-form .custom-form .label-column{
+    text-align:left;
+  }
+}
+
+.register-form .custom-form .input-column{
+  color:#5f5f5f;
+  text-align:left;
+}
+
+.register-form .custom-form .input-column input{
+  color:#5f5f5f;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.18);
+  padding:12px;
+  border:1px solid #dbdbdb;
+  border-radius:2px;
+  height:42px;
+}
+
+.register-form .custom-form .submit-button{
+  border-radius:2px;
+  background:#6caee0;
+  color:#ffffff;
+  font-weight:bold;
+  box-shadow:0px 2px 4px 0 rgba(0, 0, 0, 0.38);
+  padding:14px 22px;
+  border:0;
+  margin:20px;
+  outline:none;
+}
